@@ -105,7 +105,7 @@ void Delete(AlxWindow* w){
 }
 
 int main(){
-    if(Create("RGB to G",160,120,8,8,Setup,Update,Delete))
+    if(Create("Affine Transform",160,120,8,8,Setup,Update,Delete))
         Start();
     return 0;
 }
